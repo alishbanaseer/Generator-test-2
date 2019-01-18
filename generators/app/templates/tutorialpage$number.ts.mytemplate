@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'hgb-tutorial-page<%= number %>',
+  templateUrl: './tutorial-page<%= number %>.component.html',
+  styleUrls: ['./tutorial-page<%= number %>.component.less']
+})
+export class TutorialPage<%= number %>Component implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

@@ -1,0 +1,29 @@
+import { resolverForgotPasswordData } from './forgot-password-page/resolver.forg
+import { resolverSignInRedirect } from './signin-page/resolver-signin-redirect';
+import { SigninPageComponent } from './signin-page/signin-page.component';
+import { HgbCommonDirectivesModule } from '-hellogbye-ng-common-todo/directives/-hgb-common-directives.module';
+import { TutorialPage<%= number %>Component } from './tutorial-page<%= number %>/tutorial-page<%= number %>.component';
+ 
+ 
+const uiRouterStates: Ng2StateDeclaration[] = [
+@@ -38,6 +39,11 @@ const uiRouterStates: Ng2StateDeclaration[] = [
+    component: ForgotPasswordPageComponent,
+    resolve: [resolverForgotPasswordData]
+  },
+  {
+    name: 'externalarea.tutorial<%= number %>',
+    url: '/tutorial<%= number %>',
+    component: TutorialPage<%= number %>Component,
+  },
+  // {
+  //   name: 'externalarea.createaccount',
+  //   url: '/createaccount',
+@@ -77,6 +83,7 @@ const uiRouterStates: Ng2StateDeclaration[] = [
+    ExternalAreaComponent,
+    SigninPageComponent,
+    ForgotPasswordPageComponent,
+    TutorialPage<%= number %>
+    Component,
+  ],
+})
+export class ExternalAreaModule { }

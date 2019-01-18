@@ -1,0 +1,14 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Alishba",
+      "authorEmail": "alishba.naseer@hellogbye.com",
+      "authorUrl": ""
+    }
+  },
+  "generator-test-2": {
+    "promptValues": {
+      "number": "8"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<html>
+  <head>
+    <h1>Tutorial part <number><%= number %></number></h1>
+
+    <p>this is tutorial part <number><%= number %></number></p> 
+  </head>
+</html>
