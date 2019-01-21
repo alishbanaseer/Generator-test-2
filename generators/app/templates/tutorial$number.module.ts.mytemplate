@@ -6,7 +6,7 @@ import { TutorialPage<%= number %>Component } from './tutorial-page<%= number %>
  
  
 const uiRouterStates: Ng2StateDeclaration[] = [
-@@ -38,6 +39,11 @@ const uiRouterStates: Ng2StateDeclaration[] = [
+const uiRouterStates: Ng2StateDeclaration[] = [
     component: ForgotPasswordPageComponent,
     resolve: [resolverForgotPasswordData]
   },
@@ -18,7 +18,7 @@ const uiRouterStates: Ng2StateDeclaration[] = [
   // {
   //   name: 'externalarea.createaccount',
   //   url: '/createaccount',
-@@ -77,6 +83,7 @@ const uiRouterStates: Ng2StateDeclaration[] = [
+const uiRouterStates: Ng2StateDeclaration[] = [
     ExternalAreaComponent,
     SigninPageComponent,
     ForgotPasswordPageComponent,
